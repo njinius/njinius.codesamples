@@ -21,6 +21,6 @@ jobs:
         uses: actions/checkout@v2
       - name: Run my test script
         env:
-          my-var: False
+          my-var: True
         run: |
           python ./tutorial-code-samples/github-actions/src/my-test-script.py
